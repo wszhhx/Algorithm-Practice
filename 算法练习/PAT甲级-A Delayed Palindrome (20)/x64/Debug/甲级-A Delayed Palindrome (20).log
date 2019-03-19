@@ -1,0 +1,7 @@
+﻿  A Delayed Palindrome (20).cpp
+d:\c++实验文件\练习题\练习题集\甲级-a delayed palindrome (20)\a delayed palindrome (20).cpp(12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\c++实验文件\练习题\练习题集\甲级-a delayed palindrome (20)\a delayed palindrome (20).cpp(13): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\c++实验文件\练习题\练习题集\甲级-a delayed palindrome (20)\a delayed palindrome (20).cpp(16): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\c++实验文件\练习题\练习题集\甲级-a delayed palindrome (20)\a delayed palindrome (20).cpp(17): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  甲级-A Delayed Palindrome (20).vcxproj -> D:\C++实验文件\练习题\练习题集\x64\Debug\甲级-A Delayed Palindrome (20).exe
+  甲级-A Delayed Palindrome (20).vcxproj -> D:\C++实验文件\练习题\练习题集\x64\Debug\甲级-A Delayed Palindrome (20).pdb (Partial PDB)

@@ -1,0 +1,5 @@
+﻿  源.cpp
+d:\c++实验文件\练习题\练习题集\清华大学-求root(n,k)\源.cpp(13): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+d:\c++实验文件\练习题\练习题集\清华大学-求root(n,k)\源.cpp(20): warning C4101: “source”: 未引用的局部变量
+  清华大学-求Root(N,k).vcxproj -> D:\C++实验文件\练习题\练习题集\x64\Debug\清华大学-求Root(N,k).exe
+  清华大学-求Root(N,k).vcxproj -> D:\C++实验文件\练习题\练习题集\x64\Debug\清华大学-求Root(N,k).pdb (Partial PDB)

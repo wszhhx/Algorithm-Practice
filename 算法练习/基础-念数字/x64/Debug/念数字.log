@@ -1,0 +1,4 @@
+﻿  念数字.cpp
+d:\c++巩固\基础巩固\念数字\念数字.cpp(9): warning C4477: “scanf_s”: 格式字符串“%s”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“size_t”
+  d:\c++巩固\基础巩固\念数字\念数字.cpp(9): note: 此参数用作缓冲区大小
+  念数字.vcxproj -> D:\C++巩固\基础巩固\x64\Debug\念数字.exe

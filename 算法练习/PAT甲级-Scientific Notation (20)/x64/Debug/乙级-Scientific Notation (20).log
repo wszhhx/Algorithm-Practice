@@ -1,0 +1,5 @@
+﻿  Scientific Notation (20).cpp
+d:\c++实验文件\练习题\练习题集\乙级-scientific notation (20)\scientific notation (20).cpp(28): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\c++实验文件\练习题\练习题集\乙级-scientific notation (20)\scientific notation (20).cpp(23): warning C4101: “_A”: 未引用的局部变量
+  乙级-Scientific Notation (20).vcxproj -> D:\C++实验文件\练习题\练习题集\x64\Debug\乙级-Scientific Notation (20).exe
+  乙级-Scientific Notation (20).vcxproj -> D:\C++实验文件\练习题\练习题集\x64\Debug\乙级-Scientific Notation (20).pdb (Partial PDB)

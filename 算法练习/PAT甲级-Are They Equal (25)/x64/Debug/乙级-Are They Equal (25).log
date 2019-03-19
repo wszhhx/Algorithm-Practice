@@ -1,0 +1,7 @@
+﻿  Are They Equal (25).cpp
+d:\c++实验文件\练习题\练习题集\乙级-are they equal (25)\are they equal (25).cpp(26): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\c++实验文件\练习题\练习题集\乙级-are they equal (25)\are they equal (25).cpp(33): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\c++实验文件\练习题\练习题集\乙级-are they equal (25)\are they equal (25).cpp(44): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\c++实验文件\练习题\练习题集\乙级-are they equal (25)\are they equal (25).cpp(55): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  乙级-Are They Equal (25).vcxproj -> D:\C++实验文件\练习题\练习题集\x64\Debug\乙级-Are They Equal (25).exe
+  乙级-Are They Equal (25).vcxproj -> D:\C++实验文件\练习题\练习题集\x64\Debug\乙级-Are They Equal (25).pdb (Partial PDB)

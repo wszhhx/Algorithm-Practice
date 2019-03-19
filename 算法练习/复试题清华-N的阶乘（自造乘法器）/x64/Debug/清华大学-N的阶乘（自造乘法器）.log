@@ -1,0 +1,4 @@
+﻿E:\VS2017-Co\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(清华大学-N的阶乘（自造乘法器）.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  源.cpp
+  清华大学-N的阶乘（自造乘法器）.vcxproj -> D:\C++实验文件\练习题\练习题集\x64\Debug\清华大学-N的阶乘（大数阶乘）.exe
+  清华大学-N的阶乘（自造乘法器）.vcxproj -> D:\C++实验文件\练习题\练习题集\x64\Debug\清华大学-N的阶乘（大数阶乘）.pdb (Partial PDB)

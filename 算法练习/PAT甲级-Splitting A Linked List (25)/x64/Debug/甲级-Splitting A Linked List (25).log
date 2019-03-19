@@ -1,0 +1,5 @@
+﻿  Splitting A Linked List (25).cpp
+d:\c++实验文件\练习题\练习题集\甲级-splitting a linked list (25)\splitting a linked list (25).cpp(23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\c++实验文件\练习题\练习题集\甲级-splitting a linked list (25)\splitting a linked list (25).cpp(39): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  甲级-Splitting A Linked List (25).vcxproj -> D:\C++实验文件\练习题\练习题集\x64\Debug\甲级-Splitting A Linked List (25).exe
+  甲级-Splitting A Linked List (25).vcxproj -> D:\C++实验文件\练习题\练习题集\x64\Debug\甲级-Splitting A Linked List (25).pdb (Partial PDB)

@@ -1,0 +1,6 @@
+﻿  Stack (30).cpp
+d:\c++实验文件\练习题\练习题集\乙级-stack (30)\stack (30).cpp(117): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+d:\c++实验文件\练习题\练习题集\乙级-stack (30)\stack (30).cpp(184): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+d:\c++实验文件\练习题\练习题集\乙级-stack (30)\stack (30).cpp(186): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  乙级-Stack (30).vcxproj -> D:\C++实验文件\练习题\练习题集\x64\Debug\乙级-Stack (30).exe
+  乙级-Stack (30).vcxproj -> D:\C++实验文件\练习题\练习题集\x64\Debug\乙级-Stack (30).pdb (Partial PDB)
