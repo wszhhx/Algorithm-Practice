@@ -1,0 +1,2 @@
+D:\C++巩固\Algorithm-Practice\算法练习\基础-说反话加强版CSharp1\obj\Debug\基础-说反话加强版CSharp1.csprojAssemblyReference.cache
+D:\C++巩固\Algorithm-Practice\算法练习\基础-说反话加强版CSharp1\obj\Debug\基础-说反话加强版CSharp1.csproj.CoreCompileInputs.cache
