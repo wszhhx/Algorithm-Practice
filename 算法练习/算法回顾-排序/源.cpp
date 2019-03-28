@@ -17,6 +17,18 @@ int quick_pass(int[], int, int);
 void quick_sort_in(int[], int, int);
 void quick_sort(int[], int);
 
+void select_sort(int[], int);
+
+void sift_down(int[], int, int);
+void heap_sort(int[], int);
+
+void merge_r(int[], int, int, int);
+void merge_sort_in_r(int[], int, int);
+void merge_sort_r(int[], int);
+
+void merge(int[], int, int, int, int);
+void merge_sort(int[], int);
+
 int main() {
 	char switcher;
 	int array[100];
@@ -34,6 +46,8 @@ int main() {
 		printf("||		6.堆排序                                            ||\n");
 		printf("||	三、其他类排序                                              ||\n");
 		printf("||		7.桶排序                                            ||\n");
+		printf("||		8.归并排序(递归)                                     ||\n");
+		printf("||		9.归并排序(非递归)                                  ||\n");
 		printf("———————————————————————————————————\n");
 		switcher = _getch();
 		system("cls");
@@ -59,10 +73,26 @@ int main() {
 			output_array(array, n);
 			break;
 		case '5':
+			input_array(array, n);
+			select_sort(array, n);
+			output_array(array, n);
 			break;
 		case '6':
+			input_array(array, n);
+			heap_sort(array, n);
+			output_array(array, n);
 			break;
 		case '7':
+			break;
+		case '8':
+			input_array(array, n);
+			merge_sort_r(array, n);
+			output_array(array, n);
+			break;
+		case '9':
+			input_array(array, n);
+			merge_sort(array, n);
+			output_array(array, n);
 			break;
 		case 'q':
 			exit(0);
@@ -180,3 +210,149 @@ void quick_sort(int array[], int n) {
 	quick_sort_in(array, 1, n);
 }
 
+void select_sort(int array[], int n) {
+	int k = 0;
+	for (int i = 1; i < n; ++i) {
+		k = i;
+		for (int j = k + 1; j <= n; ++j) {
+			if (array[j] < array[k]) {
+				k = j;
+			}
+		}
+		if (i != k) 
+		{
+			array[i] = array[i] ^ array[k];
+			array[k] = array[i] ^ array[k];
+			array[i] = array[i] ^ array[k];
+		}
+		printf("第 %d 次排序结果：\n", i);
+		for (int x = 1; x <= n; ++x) {
+			printf("%d ", array[x]);
+		}
+		cout << endl;
+	}
+}
+
+void sift_down(int array[], int start, int end) {
+	int i = start;
+	int j = start * 2;
+	while (j <= end) {
+		if (j + 1 <= end && array[j + 1] > array[j])
+			j += 1;
+		if (array[j] <= array[i])
+			return;
+		array[j] = array[j] ^ array[i];
+		array[i] = array[j] ^ array[i];
+		array[j] = array[j] ^ array[i];
+		i = j;
+		j *= 2;
+	}
+}
+void heap_sort(int array[], int n) {
+	for (int i = n / 2; i >= 1; --i) 
+	{
+		sift_down(array, i, n);
+	}
+	printf("\n初始堆：\n");
+	for (int i = 1; i <= n; ++i) {
+		printf("%d ", array[i]);
+	}
+	cout << endl;
+	int count = 1;
+	for (int i = n; i > 1; --i) {
+		array[1] = array[1] ^ array[i];
+		array[i] = array[1] ^ array[i];
+		array[1] = array[1] ^ array[i];
+		sift_down(array, 1, i - 1);
+		printf("\n第 %d 次重建堆:", count++);
+		for (int j = 1; j <= n; ++j) {
+			printf("%d ", array[j]);
+		}
+		cout << endl;
+	}
+}
+
+void merge_r(int array[], int start, int mid, int end) {
+	int result[100];
+	int i, j, k;
+	i = start;
+	j = mid + 1;
+	k = 0;
+	while (i <= mid && j <= end) {
+		if (array[i] > array[j])
+			result[k++] = array[j++];
+		else
+			result[k++] = array[i++];
+	}
+	while (i <= mid)
+		result[k++] = array[i++];
+	while (j <= end)
+		result[k++] = array[j++];
+	for (i = 0; i < k; ++i)
+		array[start + i] = result[i];
+}
+void merge_sort_in_r(int array[], int start, int end) {
+	if (start < end) {
+		int mid = start + (end - start) / 2;
+		merge_sort_in_r(array, start, mid);
+		merge_sort_in_r(array, mid + 1, end);
+		merge_r(array, start, mid, end);
+	}
+}
+void merge_sort_r(int array[], int n) {
+	merge_sort_in_r(array, 1, n);
+}
+
+void merge(int array[], int l_start, int r_start, int len, int n) {
+	int l_len, r_len;
+	if (r_start + len -1 > n) { //左长右短
+		l_len = len;
+		r_len = n - r_start + 1;
+	}
+	else {
+		l_len = r_len = len;
+	}
+	printf("左半部：");
+	for (int i = l_start; i < l_start + l_len; ++i) {
+		printf("%d ", array[i]);
+	}
+	cout << endl;
+	printf("右半部：");
+	for (int i = r_start; i < r_start + r_len; ++i) {
+		printf("%d ", array[i]);
+	}
+	cout << endl;
+	int result[100];
+	int i, j, k;
+	i = l_start;
+	j = r_start;
+	k = 0;
+	while (i < l_start + l_len && j < r_start + r_len) {
+		if (array[i] > array[j])
+			result[k++] = array[j++];
+		else
+			result[k++] = array[i++];
+	}
+	while (i < l_start + l_len)
+		result[k++] = array[i++];
+	while (j < r_start + r_len)
+		result[k++] = array[j++];
+	for (i = 0; i < k; ++i)
+		array[l_start + i] = result[i];
+}
+
+void merge_sort(int array[], int n) {
+	int step = 1;
+	int count = 1;
+	while (step <= n) {
+		for (int i = 1; i <= n - step; i += 2 * step) {
+			merge(array, i, i + step, step, n);
+		}
+		printf("\n第 %d 次归并:",count++);
+		for (int j = 1; j <= n; ++j) {
+			printf("%d ", array[j]);
+		}
+		cout << endl;
+		step *= 2;
+	}
+}
