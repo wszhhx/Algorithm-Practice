@@ -365,6 +365,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PAT甲级-Tree Traversals A
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "算法回顾-排序", "算法回顾-排序\算法回顾-排序.vcxproj", "{23FE607E-D9C9-4B4C-98AC-65ACAE1FB1EA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "算法回顾-动态规划", "算法回顾-动态规划\算法回顾-动态规划.vcxproj", "{DCD5D7E9-7FD6-4737-A7F4-273539391840}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2553,6 +2555,18 @@ Global
 		{23FE607E-D9C9-4B4C-98AC-65ACAE1FB1EA}.Release|x64.Build.0 = Release|x64
 		{23FE607E-D9C9-4B4C-98AC-65ACAE1FB1EA}.Release|x86.ActiveCfg = Release|Win32
 		{23FE607E-D9C9-4B4C-98AC-65ACAE1FB1EA}.Release|x86.Build.0 = Release|Win32
+		{DCD5D7E9-7FD6-4737-A7F4-273539391840}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{DCD5D7E9-7FD6-4737-A7F4-273539391840}.Debug|ARM.ActiveCfg = Debug|Win32
+		{DCD5D7E9-7FD6-4737-A7F4-273539391840}.Debug|x64.ActiveCfg = Debug|x64
+		{DCD5D7E9-7FD6-4737-A7F4-273539391840}.Debug|x64.Build.0 = Debug|x64
+		{DCD5D7E9-7FD6-4737-A7F4-273539391840}.Debug|x86.ActiveCfg = Debug|Win32
+		{DCD5D7E9-7FD6-4737-A7F4-273539391840}.Debug|x86.Build.0 = Debug|Win32
+		{DCD5D7E9-7FD6-4737-A7F4-273539391840}.Release|Any CPU.ActiveCfg = Release|Win32
+		{DCD5D7E9-7FD6-4737-A7F4-273539391840}.Release|ARM.ActiveCfg = Release|Win32
+		{DCD5D7E9-7FD6-4737-A7F4-273539391840}.Release|x64.ActiveCfg = Release|x64
+		{DCD5D7E9-7FD6-4737-A7F4-273539391840}.Release|x64.Build.0 = Release|x64
+		{DCD5D7E9-7FD6-4737-A7F4-273539391840}.Release|x86.ActiveCfg = Release|Win32
+		{DCD5D7E9-7FD6-4737-A7F4-273539391840}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
