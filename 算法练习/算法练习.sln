@@ -367,6 +367,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "算法回顾-排序", "算�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "算法回顾-动态规划", "算法回顾-动态规划\算法回顾-动态规划.vcxproj", "{DCD5D7E9-7FD6-4737-A7F4-273539391840}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "校招-吉比特-直线上的点", "校招-吉比特-直线上的点\校招-吉比特-直线上的点.vcxproj", "{C1589AC5-4654-42C1-8FE5-89C73CD80E63}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "a草稿", "a草稿\a草稿.vcxproj", "{89483B92-2F30-42A6-B0AD-D07980974F58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2567,6 +2571,30 @@ Global
 		{DCD5D7E9-7FD6-4737-A7F4-273539391840}.Release|x64.Build.0 = Release|x64
 		{DCD5D7E9-7FD6-4737-A7F4-273539391840}.Release|x86.ActiveCfg = Release|Win32
 		{DCD5D7E9-7FD6-4737-A7F4-273539391840}.Release|x86.Build.0 = Release|Win32
+		{C1589AC5-4654-42C1-8FE5-89C73CD80E63}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{C1589AC5-4654-42C1-8FE5-89C73CD80E63}.Debug|ARM.ActiveCfg = Debug|Win32
+		{C1589AC5-4654-42C1-8FE5-89C73CD80E63}.Debug|x64.ActiveCfg = Debug|x64
+		{C1589AC5-4654-42C1-8FE5-89C73CD80E63}.Debug|x64.Build.0 = Debug|x64
+		{C1589AC5-4654-42C1-8FE5-89C73CD80E63}.Debug|x86.ActiveCfg = Debug|Win32
+		{C1589AC5-4654-42C1-8FE5-89C73CD80E63}.Debug|x86.Build.0 = Debug|Win32
+		{C1589AC5-4654-42C1-8FE5-89C73CD80E63}.Release|Any CPU.ActiveCfg = Release|Win32
+		{C1589AC5-4654-42C1-8FE5-89C73CD80E63}.Release|ARM.ActiveCfg = Release|Win32
+		{C1589AC5-4654-42C1-8FE5-89C73CD80E63}.Release|x64.ActiveCfg = Release|x64
+		{C1589AC5-4654-42C1-8FE5-89C73CD80E63}.Release|x64.Build.0 = Release|x64
+		{C1589AC5-4654-42C1-8FE5-89C73CD80E63}.Release|x86.ActiveCfg = Release|Win32
+		{C1589AC5-4654-42C1-8FE5-89C73CD80E63}.Release|x86.Build.0 = Release|Win32
+		{89483B92-2F30-42A6-B0AD-D07980974F58}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{89483B92-2F30-42A6-B0AD-D07980974F58}.Debug|ARM.ActiveCfg = Debug|Win32
+		{89483B92-2F30-42A6-B0AD-D07980974F58}.Debug|x64.ActiveCfg = Debug|x64
+		{89483B92-2F30-42A6-B0AD-D07980974F58}.Debug|x64.Build.0 = Debug|x64
+		{89483B92-2F30-42A6-B0AD-D07980974F58}.Debug|x86.ActiveCfg = Debug|Win32
+		{89483B92-2F30-42A6-B0AD-D07980974F58}.Debug|x86.Build.0 = Debug|Win32
+		{89483B92-2F30-42A6-B0AD-D07980974F58}.Release|Any CPU.ActiveCfg = Release|Win32
+		{89483B92-2F30-42A6-B0AD-D07980974F58}.Release|ARM.ActiveCfg = Release|Win32
+		{89483B92-2F30-42A6-B0AD-D07980974F58}.Release|x64.ActiveCfg = Release|x64
+		{89483B92-2F30-42A6-B0AD-D07980974F58}.Release|x64.Build.0 = Release|x64
+		{89483B92-2F30-42A6-B0AD-D07980974F58}.Release|x86.ActiveCfg = Release|Win32
+		{89483B92-2F30-42A6-B0AD-D07980974F58}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
